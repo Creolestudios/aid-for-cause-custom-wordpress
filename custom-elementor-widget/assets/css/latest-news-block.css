@@ -1,0 +1,84 @@
+.content_image_outer_class {
+    position: relative;
+    height: 337px;
+    max-height: 337px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.overlay-div {
+    background: url(../images/overlay-img.png) no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    left: 0;
+}
+
+.read_more a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 9px 15px;
+    line-height: 34px;
+    background: #f47920;
+    font-size: 15px;
+}
+
+.read_more i.fa.fa-book {
+    font-style: italic;
+    margin-right: 11px;
+    font-size: 13px;
+}
+
+.read_more {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.date_class {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.title_class {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.text_class {
+    font-size: 15px;
+    min-height: 110px;
+    max-height: 230px;
+}
+
+.inner_content_class {
+    padding: 15px;
+}
+
+.post_content_class {
+    background: #ffffff;
+    margin-bottom: 30px;
+}
+
+h3.latest_news_title {
+    font-size: 30px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+abbr[title],
+abbr[data-original-title] {
+    border-bottom: none;
+}
+
+#carousel-background-twitter .cl-icon {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
